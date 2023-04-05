@@ -1,0 +1,96 @@
+body{
+    background-color: var(--background-color);
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    width: 320px;
+    height: 340px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.link-image .image-victor{
+    position: relative;
+    display: flex;
+    margin-left: 113px;
+    margin-top: 19px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.link-image .image-victor:hover{
+    opacity: 0.4;
+    transition: 0.5s;
+}
+
+.card .info {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.card .info .link-name .name{
+    color: #000;
+    font-weight: 700;
+    font-size: 18px;
+    padding-left: 7px;
+}
+
+.card .info .link-name .name:hover{
+    color: var(--background-color);
+}
+.card .info .idade{
+    color: var(--text-color);
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+.card .cidade{
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    max-width:100%;
+    align-items: center;
+    padding-bottom: 6px;
+    font-size: 18px;
+    color: var(--text-color);
+    border-bottom: solid 1.5px var(--text-color);
+}
+
+.card .valores{
+    display: flex;
+    justify-content: space-evenly;
+    height: 45px;
+    align-items: flex-end;
+    font-weight: 700;
+    font-size: 18px;
+}
+.card .nome-valores{
+    color:var(--text-color);
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 700;
+    font-size: 16px;
+}
+.card .valores .primeiro-valor{
+    margin-left: 10px;
+    padding-left: 5px;
+}
+.card .valores .segundo-valor{
+    margin-left: 15px;
+    padding-left: 5px;
+}
+
+.card .valores .terceiro-valor{
+    margin-right: 8px;
+    padding-left: 5px;
+}
